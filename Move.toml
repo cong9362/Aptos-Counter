@@ -1,0 +1,17 @@
+[package]
+name = "my-counter"
+version = "1.0.0"
+authors = []
+
+[addresses]
+publisher = "_"
+
+[dev-addresses]
+publisher = "0xC0FFE"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
